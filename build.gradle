@@ -30,13 +30,13 @@ dependencies {
     api 'com.googlecode.json-simple:json-simple:1.1.1'
     api 'org.json:json:20220924'
     testImplementation 'junit:junit:3.8.1'
-    providedCompile 'javax.websocket:javax.websocket-api:1.1'
+    api 'javax.websocket:javax.websocket-api:1.1'
 }
 
 group = 'org.example'
 version = '1'
 description = 'quiz-song Maven Webapp'
-java.sourceCompatibility = JavaVersion.VERSION_1_8
+java.sourceCompatibility = JavaVersion.VERSION_17
 
 publishing {
     publications {
