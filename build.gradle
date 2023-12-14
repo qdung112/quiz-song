@@ -36,7 +36,7 @@ dependencies {
 group = 'org.example'
 version = '1'
 description = 'quiz-song Maven Webapp'
-java.sourceCompatibility = JavaVersion.VERSION_1_8
+java.sourceCompatibility = JavaVersion.VERSION_17
 
 publishing {
     publications {
